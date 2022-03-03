@@ -48,8 +48,15 @@ paragraph {
     display: inline-block;
  }
 
+.about {
+    top: 40%;
+    left: 10;
+    width: 20px;
+    height: 20px    
+}
+
 .icon {
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     padding-right: 8px;
 }
