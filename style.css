@@ -48,12 +48,6 @@ paragraph {
     display: inline-block;
  }
 
-.about {
-    top: 40%;
-    left: 10;
-    width: 20px;
-    height: 20px    
-}
 
 .icon {
     width: 65px;
