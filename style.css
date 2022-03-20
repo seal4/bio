@@ -7,12 +7,12 @@
 
 subtitle {
     font-size: 30px;
-    color: lightgray;
+    color: black;
 }
 
 paragraph {
     font-size: 20px;
-    color: pink;
+    color: black;
 }
 
 .background, .blur {
