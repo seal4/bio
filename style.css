@@ -7,12 +7,12 @@
 
 subtitle {
     font-size: 30px;
-    color: black;
+    color: #DDB6F2;
 }
 
 paragraph {
     font-size: 20px;
-    color: black;
+    color: #DDB6F2;
 }
 
 .background, .blur {
@@ -33,7 +33,14 @@ paragraph {
 }
 
 .blur {
-    background-color:rgba(17, 0, 5, 0.616);
+    background-image: url(./flag.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(100px);
+    -webkit-filter:brightness(50%);
+    -moz-filter:brightness(50%);
+
 }
 
 .content {
