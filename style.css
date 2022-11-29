@@ -1,0 +1,62 @@
+
+  
+* {
+    font-family: 'JetBrains Mono', monospace;
+ 
+}
+
+subtitle {
+    font-size: 30px;
+    color: #ff79c6;
+    font-weight:bold;
+}
+
+paragraph {
+    font-size: 20px;
+    color: #ff79c6;
+}
+
+.background, .blur {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: black;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.blur {
+    background-image: url(./wamen.gif);
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+ }
+
+
+.icon {
+    width: 65px;
+    height: 65px;
+    padding-right: 8px;
+}
